@@ -117,6 +117,9 @@ source /home/smert/.config/zsh/plugins/sudo/sudo.plugin.zsh
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # Moverse entre palabras
-bindkey "^[[1;3C" forward-word
-bindkey "^[[1;3D" backward-word
+bindkey "^[[1;3C" forward-word    #alt + right
+bindkey "^[[1;3D" backward-word   #alt + left
+bindkey "^H" backward-kill-word   #ctrl + backspace
+bindkey "^[[Z" undo               #shift + tab
+
 
