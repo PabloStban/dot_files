@@ -123,3 +123,5 @@ bindkey "^H" backward-kill-word   #ctrl + backspace
 bindkey "^[[Z" undo               #shift + tab
 
 
+# alias para la polybar nota
+alias nota='$HOME/Documents/bash/Utilities/nota.sh'
