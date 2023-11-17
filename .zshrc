@@ -124,4 +124,5 @@ bindkey "^[[Z" undo               #shift + tab
 
 
 # alias para la polybar nota
-alias nota='$HOME/Documents/bash/Utilities/nota.sh'
+alias nota='~/Documents/bash/Utilities/nota.sh'
+alias lista='ls'
